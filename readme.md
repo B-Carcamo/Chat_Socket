@@ -40,12 +40,12 @@ git clone https://github.com/B-Carcamo/Chat_Socket.git
 1. Ejecuta el script de la base de datos `Chat_Socket.sql` para crear las tablas necesarias.
 2. Cambia la configuración del `stringConnection` en el archivo `Models/Message.cs` para que apunte a tu servidor SQLServer.
 
-### Para Ejecutar el Server_Chat y el Client_Chat
+### Primero se ejecuta Server_Chat y posteriormente puede abri multiples ventanas del Client_Chat
 ### En Windows:
 - Corre el proyecto desde **Visual Studio Community** o compila el código y ejecuta el archivo `.exe` generado.
 
 #### En Linux:
-- Navega a la carpeta del servidor y ejecuta el comando:
+- Navega a la carpeta del servidor o cliente y ejecuta el comando:
   
   ```bash
   dotnet run
