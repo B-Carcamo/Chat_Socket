@@ -74,7 +74,7 @@ public class Server
 
                 if (result.MessageType == WebSocketMessageType.Close)
                 {
-                    await client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closing", CancellationToken.None);
+                    await client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Cerrando", CancellationToken.None);
                     break;
                 }
 
