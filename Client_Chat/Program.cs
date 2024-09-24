@@ -25,7 +25,7 @@ class Program
             await SendMessage(message);
         }
 
-        await ws.CloseAsync(WebSocketCloseStatus.NormalClosure, "Client closing connection", CancellationToken.None);
+        await ws.CloseAsync(WebSocketCloseStatus.NormalClosure, "Cliente cerrando Conexión", CancellationToken.None);
     }
 
     static async Task ConnectToServer()
