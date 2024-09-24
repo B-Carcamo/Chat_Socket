@@ -21,6 +21,6 @@ public class ChatContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost;Database=chatSocket;User Id=sa;Password=Helmet#1985;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=localhost;Database=chatSocket;User Id=sa;Password=yourpassword;TrustServerCertificate=True;");
     }
 }
