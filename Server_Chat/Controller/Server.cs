@@ -99,7 +99,7 @@ public class Server
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error handling client: {ex.Message}");
+            Console.WriteLine($"Cliente Desconectado: {ex.Message}");
         }
         finally
         {
